@@ -13,7 +13,7 @@
           align-items: center;
   padding: 0%;
   margin: 0%;
-  margin-top: 3vw;
+  margin-top: 9vw;
   margin-bottom: 3vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -159,20 +159,20 @@
 
 .Project-section {
   width: 100%;
-  margin-top: 8vw;
-  margin-bottom: 8vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
 }
 
 .Project-section .projectsTitle {
   width: 80%;
   margin: auto;
   color: #65c9ff;
-  font-size: 6vw;
+  font-size: 5.5vw;
   line-height: 0em;
 }
 
 .Project-section .showroom {
-  height: 40vw;
+  height: 35vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,9 +189,8 @@
 }
 
 .Project-section .showroom .current {
-  background-color: lightgrey;
-  width: 51vw;
-  height: 40vw;
+  width: 45vw;
+  height: 35vw;
   border-radius: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -200,12 +199,12 @@
 .Project-section .showroom button {
   border: none;
   background-color: transparent;
+  z-index: 2;
 }
 
 .Project-section .showroom .side {
-  background-color: lightgrey;
-  width: 19vw;
-  height: 27vw;
+  width: 20vw;
+  height: 20vw;
   border: 2px;
   border-radius: 3vw;
   opacity: 0.5;
@@ -221,19 +220,43 @@
     margin-bottom: 20vw;
   }
   .Project-section .projectsTitle {
+    width: 100%;
     font-size: 10vw;
     text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .Project-section .showroom {
     height: 100%;
+    display: block;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
   }
   .Project-section .showroom .current {
     width: 100%;
     height: 100%;
     border-radius: 0%;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
   }
-  .Project-section .showroom .prev,
-  .Project-section .showroom .next {
+  .Project-section .showroom .prevbtn {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 20vw;
+    height: 100%;
+  }
+  .Project-section .showroom .nextbtn {
+    position: absolute;
+    top: 0vw;
+    left: 80vw;
+    width: 20vw;
+    height: 100%;
+  }
+  .Project-section .showroom .side {
     display: none;
   }
 }
@@ -250,6 +273,8 @@
 
 .About-section:hover .Rectangle {
   width: 95%;
+  -webkit-transition: width 1s ease-in;
+  transition: width 1s ease-in;
 }
 
 .About-section .Rectangle {
@@ -303,8 +328,10 @@
 .About-section .content-container .info .Identity {
   font-size: 3.5vw;
   font-weight: 400;
-  line-height: 1em;
-  color: #65c9ff;
+  line-height: 2em;
+  color: white;
+  -webkit-transition: width 1s ease-in;
+  transition: width 1s ease-in;
 }
 
 @media (max-width: 400px) {

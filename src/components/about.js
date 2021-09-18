@@ -12,7 +12,7 @@ export const About = () => {
                     <img src={"/photo.png"} className="Photo" alt="photo" />
                      </> 
                     
-                    <div className='info'>
+                    <div data-aos="fade-left" className='info'>
                         <div className='Titles'>
                             <h1>CS Engineer</h1>
                             <h1>Full Stack Dev</h1>
