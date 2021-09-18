@@ -1,0 +1,416 @@
+@import url(/Users/stephaniegera/Code/StephanieGeraAmil/React/personal-webpage/src/assets/webfontkit-20210913-070136/stylesheet.css);
+.Top-section {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Greeting {
+  font-size: 9vw;
+  font-weight: 500;
+  line-height: 0em;
+}
+
+.Name {
+  line-height: 0.5em;
+  font-size: 5vw;
+  color: #ff488e;
+}
+
+.Top-avatar {
+  height: 35vw;
+  pointer-events: none;
+}
+
+@media (max-width: 400px) {
+  .Top-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+  }
+  .Top-section .Intro {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .Top-section .Intro .Greeting {
+    font-size: 16vw;
+    font-weight: 500;
+    line-height: 0em;
+    -webkit-margin-after: 0px;
+            margin-block-end: 0px;
+  }
+  .Top-section .Intro .Name {
+    -webkit-margin-before: 0px;
+            margin-block-start: 0px;
+    line-height: 0.5em;
+    font-size: 8vw;
+    color: #ff488e;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    text-align: right;
+  }
+  .Top-section .Top-avatar {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 73vw;
+    pointer-events: none;
+  }
+}
+
+.Stack-section {
+  width: 100%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.stackTitle {
+  font-size: 3.5vw;
+  text-align: right;
+  margin-right: 5vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  line-height: 0vh;
+  top: 16vw;
+  right: 2vw;
+}
+
+.tech-container {
+  background-color: #dba149;
+  width: 100%;
+  height: 20vw;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+}
+
+.tech-container img {
+  height: 10vw;
+  margin: auto 3vw;
+}
+
+.tech-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .Stack-section {
+    margin-top: 10vw;
+  }
+  .tech-container {
+    height: 40vw;
+  }
+  .tech-container img {
+    height: 20vw;
+    margin: auto 4vw;
+  }
+  .stackTitle {
+    font-size: 6vw;
+    font-weight: 50;
+    right: 2vw;
+    top: 33vw;
+  }
+}
+
+.Project-section {
+  width: 100%;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+}
+
+.Project-section .projectsTitle {
+  width: 80%;
+  margin: auto;
+  color: #65c9ff;
+  font-size: 6vw;
+  line-height: 0em;
+}
+
+.Project-section .showroom {
+  height: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Project-section .showroom .current {
+  background-color: lightgrey;
+  width: 51vw;
+  height: 40vw;
+  border-radius: 3vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Project-section .showroom button {
+  border: none;
+  background-color: transparent;
+}
+
+.Project-section .showroom .side {
+  background-color: lightgrey;
+  width: 19vw;
+  height: 27vw;
+  border: 2px;
+  border-radius: 3vw;
+  opacity: 0.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 400px) {
+  .Project-section {
+    width: 100%;
+    height: 90vw;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+  }
+  .Project-section .projectsTitle {
+    font-size: 10vw;
+    text-align: center;
+  }
+  .Project-section .showroom {
+    height: 100%;
+  }
+  .Project-section .showroom .current {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+  }
+  .Project-section .showroom .prev,
+  .Project-section .showroom .next {
+    display: none;
+  }
+}
+
+.About-section {
+  padding: 0%;
+  margin: 0%;
+  margin-top: 3vw;
+  width: 100%;
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+}
+
+.About-section:hover .Rectangle {
+  width: 95%;
+}
+
+.About-section .Rectangle {
+  background-color: #ff488e;
+  border-radius: 0 5vw 5vw 0;
+  width: 40%;
+  height: 30vw;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+}
+
+.About-section .content-container {
+  height: 30vw;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+}
+
+.About-section .content-container .Photo {
+  height: 25vw;
+}
+
+.About-section .content-container .info {
+  text-align: right;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  line-height: 1em;
+}
+
+.About-section .content-container .info .Titles {
+  line-height: 0.5em;
+  font-size: 3vw;
+}
+
+.About-section .content-container .info .Identity {
+  font-size: 3.5vw;
+  font-weight: 400;
+  line-height: 1em;
+  color: #65c9ff;
+}
+
+@media (max-width: 400px) {
+  .About-section {
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    position: static;
+  }
+  .About-section:hover {
+    background-color: inherit;
+  }
+  .About-section .Rectangle {
+    position: static;
+    display: none;
+  }
+  .About-section .content-container {
+    width: 100%;
+    position: static;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .About-section .content-container .Photo {
+    height: 63vw;
+  }
+  .About-section .content-container .info {
+    text-align: left;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .About-section .content-container .info .Titles {
+    line-height: 0.9em;
+    font-size: 6vw;
+    color: #ff488e;
+  }
+  .About-section .content-container .info .Identity {
+    font-size: 7vw;
+    font-weight: 400;
+  }
+}
+
+.links-container {
+  width: 50%;
+  height: 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6vw;
+}
+
+.links-container img {
+  height: 6vw;
+  margin: auto 2vw;
+}
+
+@media (max-width: 400px) {
+  .links-container {
+    width: 80%;
+    height: 12vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 0vw;
+  }
+  .links-container img {
+    height: 10vw;
+  }
+}
+
+.App {
+  background-color: white;
+  color: #282c34;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App h1 {
+  font-family: "luckiest_guyregular";
+}
+
+.App h2 {
+  font-family: "thinking_of_bettyregular";
+}
+/*# sourceMappingURL=styles.css.map */

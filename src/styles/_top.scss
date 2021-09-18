@@ -1,0 +1,64 @@
+.Top-section {
+  width: $insideContainerSize;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  margin-top: $standardMargin;
+  margin-bottom: $standardMargin;
+
+  justify-content: space-between;
+}
+.Greeting {
+  font-size: 9vw;
+  font-weight: 500;
+  line-height: 0em;
+}
+.Name {
+  line-height: 0.5em;
+  font-size: 5vw;
+  color: $primary-color;
+}
+.Top-avatar {
+  height: 35vw;
+  pointer-events: none;
+}
+
+@media (max-width: 400px) {
+  .Top-section {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    .Intro {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      justify-content: flex-end;
+      align-items: flex-start;
+
+      .Greeting {
+        font-size: 16vw;
+        font-weight: 500;
+        line-height: 0em;
+        margin-block-end: 0px;
+      }
+      .Name {
+        margin-block-start: 0px;
+        line-height: 0.5em;
+        font-size: 8vw;
+        color: $primary-color;
+        align-self: flex-start;
+        text-align: right;
+      }
+    }
+    .Top-avatar {
+      order: 1;
+      height: 73vw;
+      pointer-events: none;
+    }
+  }
+}

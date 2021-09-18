@@ -1,0 +1,34 @@
+@import "./variables";
+@import "../assets/webfontkit-20210913-070136/stylesheet.css";
+
+@import "./top";
+@import "./stack";
+@import "./projects";
+@import "./about";
+@import "./links";
+
+@mixin light-theme {
+  background-color: $background-color-LightTheme;
+  color: $color-LightTheme;
+}
+@mixin dark-theme {
+  background-color: $background-color-darkTheme;
+  color: $color-darkTheme;
+}
+
+.App {
+  @include light-theme();
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  h1 {
+    font-family: $font-primary;
+  }
+  h2 {
+    font-family: $font-secondary;
+  }
+}
