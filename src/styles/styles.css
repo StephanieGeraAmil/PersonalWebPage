@@ -12,8 +12,8 @@
           align-items: center;
   padding: 0%;
   margin: 0%;
-  margin-top: 9vw;
-  margin-bottom: 4.5vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -96,8 +96,8 @@
 
 .Stack-section {
   width: 100%;
-  margin-top: 15vw;
-  margin-bottom: 9vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
   position: relative;
   top: 0px;
   left: 0px;
@@ -158,7 +158,7 @@
 
 .Project-section {
   width: 100%;
-  margin-top: 7.5vw;
+  margin-top: 6vw;
   margin-bottom: 6vw;
 }
 
@@ -166,12 +166,12 @@
   width: 80%;
   margin: auto;
   color: #65c9ff;
-  font-size: 5.5vw;
+  font-size: 5.3vw;
   line-height: 0em;
 }
 
 .Project-section .showroom {
-  height: 35vw;
+  height: 33vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,8 +188,8 @@
 }
 
 .Project-section .showroom .current {
-  width: 45vw;
-  height: 35vw;
+  width: 43vw;
+  height: 33vw;
   border-radius: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -263,7 +263,7 @@
 .About-section {
   padding: 0%;
   margin: 0%;
-  margin-top: 7.5vw;
+  margin-top: 6vw;
   width: 100%;
   position: relative;
   top: 0vw;
@@ -336,7 +336,7 @@
 
 @media (max-width: 400px) {
   .About-section {
-    margin-top: 22vw;
+    margin-top: 25vw;
     margin-bottom: 15vw;
     position: static;
   }
@@ -380,7 +380,6 @@
   .About-section .content-container .info .Identity {
     font-size: 7vw;
     font-weight: 400;
-    color: #65c9ff;
   }
 }
 
@@ -407,7 +406,7 @@
     height: 12vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-top: 0vw;
+    margin-top: 3vw;
   }
   .links-container img {
     height: 10vw;

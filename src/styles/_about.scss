@@ -1,7 +1,7 @@
 .About-section {
   padding: 0%;
   margin: 0%;
-  margin-top: $standardMargin * 2.5;
+  margin-top: $standardMargin;
   width: 100%;
   position: relative;
   top: 0vw;
@@ -62,7 +62,7 @@
 
 @media (max-width: 400px) {
   .About-section {
-    margin-top: 22vw;
+    margin-top: 25vw;
     margin-bottom: 15vw;
     position: static;
 
@@ -99,7 +99,6 @@
         .Identity {
           font-size: 7vw;
           font-weight: 400;
-          color: $secondary-color;
         }
       }
     }

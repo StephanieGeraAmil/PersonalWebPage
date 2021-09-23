@@ -35,7 +35,7 @@ export const Projects = () => {
 
     return (
         <div className='Project-section'>
-            <div  data-aos="fade-right"  data-aos-duration="1000" className='projectsTitle'>
+            <div className='projectsTitle'>
             <h1>Projects</h1>
             </div>
             <div className='showroom'>
