@@ -1,11 +1,24 @@
 @import "./variables";
 //@import "../assets/webfontkit-20210913-070136/stylesheet.css";
-
+//@import url(../assets/webfontkit-20210913-070136/stylesheet.css);
 @import "./top";
 @import "./stack";
 @import "./projects";
 @import "./about";
 @import "./links";
+
+@font-face {
+  font-family: "luckiest_guyregular";
+  src: local("luckiest_guyregular"),
+    url(../assets/webfontkit-20210913-070136/luckiestguy-regular-webfont.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "thinking_of_bettyregular";
+  src: local("thinking_of_bettyregular"),
+    url(../assets/webfontkit-20210913-070136/thinking_of_betty-webfont.woff)
+      format("woff");
+}
 
 @mixin light-theme {
   background-color: $background-color-LightTheme;
