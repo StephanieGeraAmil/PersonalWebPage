@@ -35,19 +35,19 @@ export const Projects = () => {
 
     return (
         <div className='Project-section'>
-            <div  data-aos="fade-right" className='projectsTitle'>
+            <div  data-aos="fade-right"  data-aos-duration="1000" className='projectsTitle'>
             <h1>Projects</h1>
             </div>
             <div className='showroom'>
                     
                        
-                        <button  data-aos="fade-right" className='prevbtn' onClick={()=>slideLeft()}>
+                        <button  data-aos="fade-right" data-aos-duration="500" className='prevbtn' onClick={()=>slideLeft()}>
                              <img src={arrayOfProjects[0].photo} className='side' alt ={arrayOfProjects[0].name}/>  
                         </button>
                     
                         <CurrentProject proj={arrayOfProjects[1]}/>
                         
-                        <button  data-aos="fade-left" className='nextbtn'onClick={()=>slideRight()}>
+                        <button  data-aos="fade-left" data-aos-duration="500" className='nextbtn'onClick={()=>slideRight()}>
                              <img src={arrayOfProjects[2].photo} className='side' alt ={arrayOfProjects[2].name}/>  
                         </button>
                   

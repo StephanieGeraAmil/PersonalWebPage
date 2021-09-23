@@ -25,11 +25,11 @@ export const Stack = () => {
     return (
         <div className='Stack-section'>
             <div className="tech-container" >
-            <Marquee pauseOnHover={true} gradient={false} speed={300}>
+            <Marquee pauseOnHover={true} gradient={false} speed={150}>
                 {initialArrayOfTech.map((tech)=>(   <img src={tech.src} className="tech" alt={tech.alt} key={tech.alt} />   ))}
             </Marquee> 
             </div>
-            <div data-aos="fade-left" className='stackTitle'>
+            <div data-aos="fade-left" data-aos-duration="1000" className='stackTitle'>
                 <h2 >my Stack</h2>
             </div>
             
