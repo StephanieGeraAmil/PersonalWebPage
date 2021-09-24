@@ -35,6 +35,10 @@
       border-radius: $boxRadius;
       opacity: 0.5;
       object-fit: cover;
+      outline: none;
+      ::-moz-focus-inner {
+        border: 0;
+      }
     }
   }
 }

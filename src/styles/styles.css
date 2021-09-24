@@ -12,8 +12,8 @@
           align-items: center;
   padding: 0%;
   margin: 0%;
-  margin-top: 6vw;
-  margin-bottom: 6vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -96,8 +96,8 @@
 
 .Stack-section {
   width: 100%;
-  margin-top: 6vw;
-  margin-bottom: 6vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
   position: relative;
   top: 0px;
   left: 0px;
@@ -158,8 +158,8 @@
 
 .Project-section {
   width: 80%;
-  margin-top: 6vw;
-  margin-bottom: 6vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
 }
 
 .Project-section .projectsTitle {
@@ -208,6 +208,11 @@
   opacity: 0.5;
   -o-object-fit: cover;
      object-fit: cover;
+  outline: none;
+}
+
+.Project-section .showroom .side ::-moz-focus-inner {
+  border: 0;
 }
 
 @media (max-width: 400px) {
@@ -262,7 +267,7 @@
 .About-section {
   padding: 0%;
   margin: 0%;
-  margin-top: 6vw;
+  margin-top: 4vw;
   width: 100%;
   position: relative;
   top: 0vw;
@@ -377,8 +382,8 @@
     color: #ff488e;
   }
   .About-section .content-container .info .Identity {
-    font-size: 7vw;
-    font-weight: 400;
+    position: static;
+    display: none;
   }
 }
 
@@ -391,7 +396,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
 
 .links-container img {
@@ -405,7 +410,7 @@
     height: 12vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-top: 3vw;
+    margin-top: 1vw;
   }
   .links-container img {
     height: 10vw;

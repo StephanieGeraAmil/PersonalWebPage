@@ -97,8 +97,10 @@
           color: $primary-color;
         }
         .Identity {
-          font-size: 7vw;
-          font-weight: 400;
+          position: static;
+          display: none;
+          // font-size: 7vw;
+          // font-weight: 400;
         }
       }
     }
