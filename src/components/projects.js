@@ -42,13 +42,13 @@ export const Projects = () => {
                     
                        
                         <button  data-aos="fade-right" data-aos-duration="500" className='prevbtn' onClick={()=>slideLeft()}>
-                             <img src={arrayOfProjects[0].photo} className='side' alt ={arrayOfProjects[0].name}/>  
+                             <img src={arrayOfProjects[0].photo} className='side left' alt ={arrayOfProjects[0].name}/>  
                         </button>
                     
                         <CurrentProject proj={arrayOfProjects[1]}/>
                         
                         <button  data-aos="fade-left" data-aos-duration="500" className='nextbtn'onClick={()=>slideRight()}>
-                             <img src={arrayOfProjects[2].photo} className='side' alt ={arrayOfProjects[2].name}/>  
+                             <img src={arrayOfProjects[2].photo} className='side right' alt ={arrayOfProjects[2].name}/>  
                         </button>
                   
                         

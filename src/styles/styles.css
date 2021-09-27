@@ -187,11 +187,12 @@
 }
 
 .Project-section .showroom .current {
-  width: 33vw;
+  width: 43vw;
   height: 33vw;
   border-radius: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 0 5vw;
 }
 
 .Project-section .showroom button {
@@ -200,9 +201,17 @@
   z-index: 2;
 }
 
+.Project-section .showroom .left {
+  margin-left: -10vw;
+}
+
+.Project-section .showroom .right {
+  margin-right: -10vw;
+}
+
 .Project-section .showroom .side {
-  width: 18vw;
-  height: 18vw;
+  width: 43vw;
+  height: 33vw;
   border: 2px;
   border-radius: 3vw;
   opacity: 0.5;
