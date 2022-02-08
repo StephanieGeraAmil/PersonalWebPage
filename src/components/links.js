@@ -13,9 +13,7 @@ export const Links = () => {
                 <a href="https://www.linkedin.com/in/stephanie-gera-60b6b5a0/">
                     <img src='links/linkedin.png' className="link" alt="linkedin"/>  
                 </a> 
-                <a href=""> 
-                    <img src='/links/instagram.png' className="link" alt="instagram"/> 
-                </a>        
+                      
             </div>
     )
 }

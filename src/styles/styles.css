@@ -192,7 +192,9 @@
   border-radius: 3vw;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 0 5vw;
+  margin: 0;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .Project-section .showroom button {
@@ -250,6 +252,7 @@
     width: 100%;
     height: 100%;
     border-radius: 0%;
+    margin: 0;
     position: relative;
     top: 0vw;
     left: 0vw;
