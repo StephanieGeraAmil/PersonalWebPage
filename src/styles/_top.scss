@@ -1,10 +1,11 @@
 .Top-section {
   width: $insideContainerSize;
+  // background-color: $secondary-color;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0%;
-  margin: 0%;
+  margin: auto;
   margin-top: $standardMargin;
   margin-bottom: $standardMargin;
   //background-image: url(../assets/bubbles.png);

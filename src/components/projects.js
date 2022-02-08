@@ -6,7 +6,7 @@ import { CurrentProject } from './currentProject';
 export const Projects = () => {
     
     const initialArrayOfProjects=[
-    {id:1, name: "lallal1", photo:'/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg',link:""},
+    {id:1, name: "lallal1", photo:'/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg',link:"https://6202bcb18426d54989ed0c0f--lucid-agnesi-0d6296.netlify.app/"},
     {id:2,name: "lallalal2", photo:'/project-imgs/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg',link:""},
     {id:3,name: "lalaal3", photo:'/project-imgs/jon-tyson-YtYNavix3pw-unsplash.jpg',link:""}
     ];

@@ -11,7 +11,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0%;
-  margin: 0%;
+  margin: auto;
   margin-top: 4vw;
   margin-bottom: 4vw;
   -webkit-box-pack: justify;
@@ -28,7 +28,7 @@
 .Name {
   line-height: 0.5em;
   font-size: 5vw;
-  color: #ff488e;
+  color: #cc53a6;
 }
 
 .Top-avatar {
@@ -80,7 +80,7 @@
             margin-block-start: 0px;
     line-height: 0.5em;
     font-size: 8vw;
-    color: #ff488e;
+    color: #cc53a6;
     -ms-flex-item-align: start;
         align-self: flex-start;
     text-align: right;
@@ -116,7 +116,7 @@
 }
 
 .tech-container {
-  background-color: #dba149;
+  background-color: #cc53a6;
   width: 100%;
   height: 20vw;
   position: relative;
@@ -164,7 +164,7 @@
 
 .Project-section .projectsTitle {
   margin: auto;
-  color: #65c9ff;
+  color: #5a5c99;
   font-size: 5.3vw;
   line-height: 0em;
 }
@@ -290,7 +290,7 @@
 }
 
 .About-section .Rectangle {
-  background-color: #ff488e;
+  background-color: #cc53a6;
   border-radius: 0 5vw 5vw 0;
   width: 40%;
   height: 30vw;
@@ -388,7 +388,7 @@
   .About-section .content-container .info .Titles {
     line-height: 0.9em;
     font-size: 6vw;
-    color: #ff488e;
+    color: #cc53a6;
   }
   .About-section .content-container .info .Identity {
     position: static;
