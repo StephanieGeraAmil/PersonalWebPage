@@ -6,9 +6,9 @@ import { CurrentProject } from './currentProject';
 export const Projects = () => {
     
     const initialArrayOfProjects=[
-    {id:1, name: "lallal1", photo:'/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg',link:"https://6202bcb18426d54989ed0c0f--lucid-agnesi-0d6296.netlify.app/"},
-    {id:2,name: "lallalal2", photo:'/project-imgs/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg',link:""},
-    {id:3,name: "lalaal3", photo:'/project-imgs/jon-tyson-YtYNavix3pw-unsplash.jpg',link:""}
+    {id:1, name: "Jars", photo:'/project-imgs/katt-yukawa-K0E6E0a0R3A-unsplash.jpg',link:"https://6202bcb18426d54989ed0c0f--lucid-agnesi-0d6296.netlify.app/"},
+    {id:2,name: "Truth", photo:'/project-imgs/bible-unsplash.jpg',link:""},
+    {id:3,name: "Not Alone", photo:'/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg',link:""}
     ];
     
     const [arrayOfProjects,setArayOfProjects]=useState(initialArrayOfProjects);
