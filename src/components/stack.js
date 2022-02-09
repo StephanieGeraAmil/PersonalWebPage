@@ -11,6 +11,7 @@ export const Stack = () => {
         {alt: "html5", src: '/icons-lightTheme/HTML5.png'},   
         {alt: "mongo", src:'/icons-lightTheme/MONGO.png'},
         {alt: "css3", src: '/icons-lightTheme/CSS3.png'},
+         {alt: "redux", src: '/icons-lightTheme/REDUX.png'},
         {alt: "postgres", src: '/icons-lightTheme/POSTGRES.png'},
         {alt: "sass", src: '/icons-lightTheme/SASS.png' },
         {alt: "figma", src: '/icons-lightTheme/FIGMA.png'},
@@ -25,7 +26,7 @@ export const Stack = () => {
     return (
         <div className='Stack-section'>
             <div className="tech-container" >
-            <Marquee pauseOnHover={true} gradient={false} speed={100}>
+            <Marquee pauseOnHover={true} gradient={false} speed={80}>
                 {initialArrayOfTech.map((tech)=>(   <img src={tech.src} className="tech" alt={tech.alt} key={tech.alt} />   ))}
             </Marquee> 
             </div>

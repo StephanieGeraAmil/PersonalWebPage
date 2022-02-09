@@ -14,7 +14,7 @@ export const Top = () => {
                     </div>
                 </div>
                 <div>
-                        <img src='/avatar.png'  className="Top-avatar" alt="logo" />    
+                        <img src='/5141092.jpg'  className="Top-avatar" alt="logo" />    
                 </div>  
             </div>   
     )

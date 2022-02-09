@@ -28,7 +28,7 @@
 .Name {
   line-height: 0.5em;
   font-size: 5vw;
-  color: #cc53a6;
+  color: #a04f1b;
 }
 
 .Top-avatar {
@@ -80,7 +80,7 @@
             margin-block-start: 0px;
     line-height: 0.5em;
     font-size: 8vw;
-    color: #cc53a6;
+    color: #3d5d71;
     -ms-flex-item-align: start;
         align-self: flex-start;
     text-align: right;
@@ -116,7 +116,7 @@
 }
 
 .tech-container {
-  background-color: #cc53a6;
+  background-color: #3d5d71;
   width: 100%;
   height: 20vw;
   position: relative;
@@ -143,6 +143,7 @@
   }
   .tech-container {
     height: 40vw;
+    background-color: #a04f1b;
   }
   .tech-container img {
     height: 20vw;
@@ -164,7 +165,7 @@
 
 .Project-section .projectsTitle {
   margin: auto;
-  color: #5a5c99;
+  color: #a04f1b;
   font-size: 5.3vw;
   line-height: 0em;
 }
@@ -232,6 +233,9 @@
     height: 90vw;
     margin-top: 20vw;
     margin-bottom: 20vw;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
   }
   .Project-section .projectsTitle {
     width: 100%;
@@ -293,7 +297,7 @@
 }
 
 .About-section .Rectangle {
-  background-color: #cc53a6;
+  background-color: #3d5d71;
   border-radius: 0 5vw 5vw 0;
   width: 40%;
   height: 30vw;
@@ -345,7 +349,7 @@
   font-size: 3.5vw;
   font-weight: 400;
   line-height: 2em;
-  color: white;
+  color: #afafaf;
   -webkit-transition: width 1s ease-in;
   transition: width 1s ease-in;
 }
@@ -355,6 +359,9 @@
     margin-top: 25vw;
     margin-bottom: 10vw;
     position: static;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
   .About-section:hover {
     background-color: inherit;
@@ -380,6 +387,9 @@
   }
   .About-section .content-container .Photo {
     height: 63vw;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .About-section .content-container .info {
     text-align: left;
@@ -387,11 +397,14 @@
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .About-section .content-container .info .Titles {
     line-height: 0.9em;
     font-size: 6vw;
-    color: #cc53a6;
+    color: #3d5d71;
   }
   .About-section .content-container .info .Identity {
     position: static;
@@ -422,7 +435,11 @@
     height: 12vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    margin-top: 1vw;
+    margin-top: 19vw;
+    margin-bottom: 4vw;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
   }
   .links-container img {
     height: 10vw;
@@ -440,7 +457,7 @@
 }
 
 .App {
-  background-color: white;
+  background-color: #afafaf;
   color: #282c34;
   width: 100%;
   margin: auto;

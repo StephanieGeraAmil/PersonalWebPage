@@ -3,9 +3,9 @@ import React from 'react'
 export const Links = () => {
     return (
          <div className="links-container">
-                <a href="">
+                {/* <a href="">
                     <img src='/links/gmail.png'className="link" alt="gmail"/> 
-                </a>
+                </a> */}
             
                 <a href="https://github.com/StephanieGeraAmil">
                     <img src='/links/github.png'className="link" alt="github"/> 

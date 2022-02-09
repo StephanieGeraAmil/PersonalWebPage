@@ -15,7 +15,8 @@ const App=()=> {
   }, [])
   return (  
         <div className='App'>
-            <Top/>   
+            <Top/>  
+         
             <Stack/>
             <Projects/>
             <About/>

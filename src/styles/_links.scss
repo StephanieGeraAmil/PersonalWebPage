@@ -16,7 +16,9 @@
     width: 80%;
     height: 12vw;
     justify-content: space-around;
-    margin-top: $standardMargin - 3vw;
+    margin-top: $standardMargin + 15;
+    margin-bottom: $standardMargin;
+    order: 5;
     img {
       height: 10vw;
     }
