@@ -8,7 +8,7 @@ export const Projects = () => {
     const initialArrayOfProjects=[
     {id:1, name: "Jars", photo:'/project-imgs/katt-yukawa-K0E6E0a0R3A-unsplash.jpg',link:"https://6202bcb18426d54989ed0c0f--lucid-agnesi-0d6296.netlify.app/"},
     {id:2,name: "Truth", photo:'/project-imgs/bible-unsplash.jpg',link:"https://elastic-kowalevski-f1c1a2.netlify.app/"},
-    {id:3,name: "Not Alone", photo:'/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg',link:""}
+        { id: 3, name: "Not Alone", photo: '/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg', link:"https://boring-allen-85a658.netlify.app/"}
     ];
     
     const [arrayOfProjects,setArayOfProjects]=useState(initialArrayOfProjects);
