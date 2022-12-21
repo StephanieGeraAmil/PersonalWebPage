@@ -2,7 +2,7 @@
   "name": "personal-webpage",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://stephaniegeraamil.github.io/PersonalWebPage",
+  "homepage": "http://stephaniegeraamil.github.io/PersonalWebPage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,6 +11,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-fast-marquee": "^1.2.1",
+    "react-router-dom": "^6.5.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
