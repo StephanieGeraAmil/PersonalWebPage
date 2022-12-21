@@ -6,11 +6,13 @@ import { HashRouter as Router } from "react-router-dom";
 //import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-      <Router>
+    
   <React.StrictMode>
+      <Router>
     <App />
+     </Router>
   </React.StrictMode>
-  </Router>,
+ ,
   document.getElementById('root')
 );
 
