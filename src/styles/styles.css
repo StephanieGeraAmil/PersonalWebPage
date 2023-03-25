@@ -37,7 +37,7 @@
   margin: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .Top-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,36 +104,36 @@
   }
   .Top-section .imageContainer .Top-avatar {
     margin: 0;
-    height: 73vw;
+    height: 70%;
     pointer-events: none;
   }
   .Top-section #books {
     position: absolute;
-    width: 22vw;
-    height: 24vw;
+    width: 32%;
+    height: 34%;
     left: 67%;
     top: 60%;
   }
   .Top-section #iceCream {
     position: absolute;
-    width: 5vw;
-    height: 10vw;
-    top: 80%;
+    width: 10%;
+    height: 20%;
+    top: 50%;
     left: 10%;
   }
   .Top-section #camera {
     position: absolute;
-    width: 9vw;
-    height: 7vw;
+    width: 19%;
+    height: 14%;
     top: 20%;
     left: 80%;
   }
   .Top-section #headphones {
     position: absolute;
-    width: 8vw;
-    height: 8vw;
-    top: 0%;
-    left: 17%;
+    width: 15%;
+    height: 15%;
+    top: 5%;
+    left: 0%;
   }
 }
 
@@ -264,12 +264,13 @@
 }
 
 .Project-section {
-  width: 80%;
+  width: 100%;
   margin-top: 4vw;
   margin-bottom: 4vw;
 }
 
 .Project-section .projectsTitle {
+  width: 80%;
   margin: auto;
   color: #D7A4B4;
   font-size: 5.3vw;
@@ -278,6 +279,7 @@
 
 .Project-section .showroom {
   height: 33vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,6 +293,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .Project-section .showroom .current {

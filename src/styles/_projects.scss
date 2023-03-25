@@ -1,22 +1,24 @@
 .Project-section {
-  width: $insideContainerSize;
+  width: 100%;
   margin-top: $standardMargin;
   margin-bottom: $standardMargin;
 
   .projectsTitle {
-    //width: $insideContainerSize;
+    width: $insideContainerSize;
     margin: auto;
     color: $secondary-color;
     font-size: 5.3vw;
     line-height: 0em;
+   
   }
   .showroom {
     height: 33vw;
-
+ width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
     .current {
       width: 43vw;
       height: 33vw;

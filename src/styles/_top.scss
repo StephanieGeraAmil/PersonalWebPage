@@ -30,7 +30,7 @@
   margin: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .Top-section {
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
       justify-content: center;
       .Top-avatar {
         margin: 0;
-        height: 73vw;
+        height: 70%;
         pointer-events: none;
       }
     }
@@ -85,9 +85,12 @@
 
     #books {
       position: absolute;
-      width: 22vw;
+      // width: 22vw;
 
-      height: 24vw;
+      // height: 24vw;
+        width:32%;
+        
+          height: 34%;
       left: 67%;
 
       top: 60%;
@@ -95,9 +98,9 @@
 
     #iceCream {
       position: absolute;
-      width: 5vw;
-      height: 10vw;
-      top: 80%;
+      width: 10%;
+      height: 20%;
+      top: 50%;
       left: 10%;
     }
 
@@ -135,17 +138,17 @@
 
     #camera {
       position: absolute;
-      width: 9vw;
-      height: 7vw;
+      width: 19%;
+      height: 14%;
       top: 20%;
         left: 80%;
     }
     #headphones {
       position: absolute;
-      width: 8vw;
-      height: 8vw;
-      top: 0%;
-      left: 17%;
+      width: 15%;
+      height: 15%;
+      top: 5%;
+      left: 0%;
     }
   }
 }
