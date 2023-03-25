@@ -538,7 +538,7 @@
   margin: auto 2vw;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .links-container {
     width: 80%;
     height: 12vw;
