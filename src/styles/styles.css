@@ -519,7 +519,11 @@
   }
 }
 
-.links-container {
+.bottom {
+  position: relative;
+}
+
+.bottom .links-container {
   width: 50%;
   height: 8vw;
   display: -webkit-box;
@@ -531,25 +535,41 @@
   margin-top: 4vw;
 }
 
-.links-container img {
+.bottom .links-container img {
   height: 6vw;
   margin: auto 2vw;
 }
 
+.bottom .attribution {
+  position: absolute;
+  top: 25%;
+  right: -120%;
+}
+
 @media (max-width: 500px) {
-  .links-container {
-    width: 80%;
-    height: 12vw;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-top: 19vw;
-    margin-bottom: 4vw;
+  .bottom {
+    position: relative;
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
+    width: 80%;
   }
-  .links-container img {
+  .bottom .links-container {
+    width: 80%;
+    margin: auto;
+    height: 12vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 12vw;
+    margin-bottom: 4vw;
+  }
+  .bottom .links-container img {
     height: 10vw;
+  }
+  .bottom .attribution {
+    position: absolute;
+    top: 40%;
+    right: 0%;
   }
 }
 
@@ -568,7 +588,9 @@
           box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   width: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -601,5 +623,16 @@ html, body, #root {
 
 .App h2 {
   font-family: "thinking_of_bettyregular";
+}
+
+.App p {
+  font-family: "thinking_of_bettyregular";
+}
+
+.App a {
+  color: #66534E;
+  text-decoration: none;
+  font-size: small;
+  /* no underline */
 }
 /*# sourceMappingURL=styles.css.map */

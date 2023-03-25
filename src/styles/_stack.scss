@@ -9,7 +9,6 @@
 .stackTitle {
   font-size: 3.5vw;
   text-align: right;
-  // margin-right: 5vw;
   margin-top: 0px;
   margin-bottom: 0px;
   position: absolute;
@@ -27,7 +26,7 @@
   display: flex;
   flex-direction: column;
  justify-content: center;
-  // overflow-x: auto;
+
   padding: 0;
   img {
     height: 10vw;
@@ -39,9 +38,6 @@
   }
 }
 
-// .tech {
-//   filter: invert(80%);
-// }
 @media (max-width: 500px) {
   .Stack-section {
     margin-top: 10vw;

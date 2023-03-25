@@ -25,10 +25,12 @@
 * {
   box-sizing: border-box;
 }
-html,body,#root{
+html,
+body,
+#root {
   width: 100%;
-    margin: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .App {
@@ -46,4 +48,15 @@ html,body,#root{
   h2 {
     font-family: $font-secondary;
   }
+  p {
+    font-family: $font-secondary;
+  }
+  a {
+    
+    color: $color-LightTheme;
+    text-decoration: none;
+    font-size: small;
+    /* no underline */
+  }
+  
 }
