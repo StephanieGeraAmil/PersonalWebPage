@@ -104,36 +104,36 @@
   }
   .Top-section .imageContainer .Top-avatar {
     margin: 0;
-    height: 70%;
+    height: 73vw;
     pointer-events: none;
   }
   .Top-section #books {
     position: absolute;
-    width: 32%;
-    height: 34%;
+    width: 27vw;
+    height: 29vw;
     left: 67%;
     top: 60%;
   }
   .Top-section #iceCream {
     position: absolute;
-    width: 10%;
-    height: 20%;
-    top: 50%;
+    width: 5vw;
+    height: 13vw;
+    top: 40%;
     left: 10%;
   }
   .Top-section #camera {
     position: absolute;
-    width: 19%;
-    height: 14%;
-    top: 20%;
+    width: 12vw;
+    height: 9vw;
+    top: 10%;
     left: 80%;
   }
   .Top-section #headphones {
     position: absolute;
-    width: 15%;
-    height: 15%;
-    top: 5%;
-    left: 0%;
+    width: 12vw;
+    height: 12vw;
+    top: -40%;
+    left: 9%;
   }
 }
 
