@@ -1,5 +1,5 @@
 .Top-section {
-  width: 80%;
+  width: 55%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,12 +28,13 @@
 .Name {
   line-height: 0.5em;
   font-size: 5vw;
-  color: #a04f1b;
+  color: #D7A4B4;
 }
 
 .Top-avatar {
   height: 35vw;
   pointer-events: none;
+  margin: auto;
 }
 
 @media (max-width: 400px) {
@@ -50,9 +51,9 @@
     margin-bottom: 10vw;
   }
   .Top-section .Intro {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,7 +61,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 60%;
+    margin: 0;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -80,18 +81,102 @@
             margin-block-start: 0px;
     line-height: 0.5em;
     font-size: 8vw;
-    color: #3d5d71;
+    color: #EABE7A;
     -ms-flex-item-align: start;
         align-self: flex-start;
     text-align: right;
   }
   .Top-section .Top-avatar {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0;
     height: 73vw;
     pointer-events: none;
   }
+  .Top-section #books {
+    position: absolute;
+    width: 21vw;
+    height: 23vw;
+    right: 10%;
+    top: 56%;
+  }
+  .Top-section #iceCream {
+    position: absolute;
+    width: 5vw;
+    height: 10vw;
+    top: 39%;
+    left: -25%;
+  }
+  .Top-section #camera {
+    position: absolute;
+    width: 9vw;
+    height: 7vw;
+    top: 8%;
+    right: 18%;
+  }
+  .Top-section #headphones {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: -5%;
+    left: -35%;
+  }
+}
+
+.rotateimg15 {
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.rotateimg345 {
+  -webkit-transform: rotate(345deg);
+  transform: rotate(345deg);
+}
+
+.rotateimg325 {
+  -webkit-transform: rotate(325deg);
+  transform: rotate(325deg);
+}
+
+.imageContainer {
+  position: relative;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#books {
+  position: absolute;
+  width: 14vw;
+  height: 16vw;
+  top: 24vw;
+  left: 23vw;
+}
+
+#iceCream {
+  position: absolute;
+  width: 4vw;
+  height: 7vw;
+  top: 30vw;
+  right: 63vw;
+}
+
+#camera {
+  position: absolute;
+  width: 7vw;
+  height: 5vw;
+  top: 3vw;
+  left: 27vw;
+}
+
+#headphones {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 2vw;
+  right: 67vw;
 }
 
 .Stack-section {
@@ -116,7 +201,7 @@
 }
 
 .tech-container {
-  background-color: #3d5d71;
+  background-color: #EABE7A;
   width: 100%;
   height: 20vw;
   position: relative;
@@ -143,7 +228,7 @@
   }
   .tech-container {
     height: 40vw;
-    background-color: #a04f1b;
+    background-color: #D7A4B4;
   }
   .tech-container img {
     height: 20vw;
@@ -165,7 +250,7 @@
 
 .Project-section .projectsTitle {
   margin: auto;
-  color: #a04f1b;
+  color: #D7A4B4;
   font-size: 5.3vw;
   line-height: 0em;
 }
@@ -297,7 +382,7 @@
 }
 
 .About-section .Rectangle {
-  background-color: #3d5d71;
+  background-color: #EABE7A;
   border-radius: 0 5vw 5vw 0;
   width: 40%;
   height: 30vw;
@@ -349,7 +434,7 @@
   font-size: 3.5vw;
   font-weight: 400;
   line-height: 2em;
-  color: #afafaf;
+  color: #fff;
   -webkit-transition: width 1s ease-in;
   transition: width 1s ease-in;
 }
@@ -404,7 +489,7 @@
   .About-section .content-container .info .Titles {
     line-height: 0.9em;
     font-size: 6vw;
-    color: #3d5d71;
+    color: #EABE7A;
   }
   .About-section .content-container .info .Identity {
     position: static;
@@ -457,8 +542,8 @@
 }
 
 .App {
-  background-color: #afafaf;
-  color: #282c34;
+  background-color: #fff;
+  color: #66534E;
   width: 100%;
   margin: auto;
   display: -webkit-box;

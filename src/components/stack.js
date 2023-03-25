@@ -6,17 +6,20 @@ export const Stack = () => {
 
      const initialArrayOfTech=[
         {alt: "react", src:'/icons-lightTheme/REACT.png'},
-        {alt: "js", src:'/icons-lightTheme/JS.png'},
+        {alt: "javascipt", src:'/icons-lightTheme/JS.png'},
         {alt: "node", src:'/icons-lightTheme/NODE.png'},
         {alt: "html5", src: '/icons-lightTheme/HTML5.png'},   
         {alt: "mongo", src:'/icons-lightTheme/MONGO.png'},
         {alt: "css3", src: '/icons-lightTheme/CSS3.png'},
          {alt: "redux", src: '/icons-lightTheme/REDUX.png'},
-        {alt: "postgres", src: '/icons-lightTheme/POSTGRES.png'},
+        {alt: "postgres", src: '/icons-lightTheme/POSTGRE.png'},
         {alt: "sass", src: '/icons-lightTheme/SASS.png' },
         {alt: "figma", src: '/icons-lightTheme/FIGMA.png'},
-        {alt: "inkscape", src: '/icons-lightTheme/INKSCAPE.png'}
+        {alt: "typescript", src: '/icons-lightTheme/TS.png'},
+          {alt: "lambda", src: '/icons-lightTheme/LAMBDA.png'},
+                    {alt: "material-ui", src: '/icons-lightTheme/MUI.png'}
     ];
+   
     useEffect(() => {
 
         
@@ -26,8 +29,8 @@ export const Stack = () => {
     return (
         <div className='Stack-section'>
             <div className="tech-container" >
-            <Marquee pauseOnHover={true} gradient={false} speed={80}>
-                {initialArrayOfTech.map((tech)=>(   <img src={tech.src} className="tech" alt={tech.alt} key={tech.alt} />   ))}
+            <Marquee gradient={false} speed={80}>
+                {initialArrayOfTech.map((tech)=>(   <img src={tech.src} className="tech" title={tech.alt} alt={tech.alt} key={tech.alt} />   ))}
             </Marquee> 
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" className='stackTitle'>
