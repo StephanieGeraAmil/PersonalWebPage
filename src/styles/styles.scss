@@ -25,6 +25,11 @@
 * {
   box-sizing: border-box;
 }
+html,body,#root{
+  width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
 
 .App {
   @include light-theme();

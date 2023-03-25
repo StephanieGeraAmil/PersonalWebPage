@@ -204,7 +204,6 @@
 .stackTitle {
   font-size: 3.5vw;
   text-align: right;
-  margin-right: 5vw;
   margin-top: 0px;
   margin-bottom: 0px;
   position: absolute;
@@ -230,7 +229,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow-x: auto;
   padding: 0;
 }
 
@@ -568,6 +566,12 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .App {
