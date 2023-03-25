@@ -13,7 +13,7 @@
       transition: width 1s ease-in;
     }
   }
-
+ 
   .Rectangle {
     background-color: $primary-color;
     border-radius: 0 5vw 5vw 0;
@@ -102,8 +102,6 @@
         .Identity {
           position: static;
           display: none;
-          // font-size: 7vw;
-          // font-weight: 400;
         }
       }
     }

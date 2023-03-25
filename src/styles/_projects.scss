@@ -9,11 +9,10 @@
     color: $secondary-color;
     font-size: 5.3vw;
     line-height: 0em;
-   
   }
   .showroom {
     height: 33vw;
- width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,12 +32,6 @@
       background-color: transparent;
       z-index: 2;
     }
-    .left {
-      margin-left: -10vw;
-    }
-    .right {
-      margin-right: -10vw;
-    }
     .side {
       width: 43vw;
       height: 33vw;
@@ -50,7 +43,7 @@
       ::-moz-focus-inner {
         border: 0;
       }
-    }
+    } 
   }
 }
 
