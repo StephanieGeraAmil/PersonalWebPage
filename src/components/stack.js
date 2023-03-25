@@ -24,13 +24,15 @@ export const Stack = () => {
 
         
     }, [])
-   
+   const handleClickOnTech=()=>{
+
+   }
 
     return (
         <div className='Stack-section'>
             <div className="tech-container" >
-            <Marquee gradient={false} speed={80}>
-                {initialArrayOfTech.map((tech)=>(   <img src={tech.src} className="tech" title={tech.alt} alt={tech.alt} key={tech.alt} />   ))}
+            <Marquee gradient={false} speed={75}>
+                {initialArrayOfTech.map((tech)=>(<img src={tech.src} className="tech" title={tech.alt} onClick={handleClickOnTech} key={tech.alt} />   ))}
             </Marquee> 
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" className='stackTitle'>

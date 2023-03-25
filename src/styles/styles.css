@@ -39,6 +39,9 @@
 
 @media (max-width: 400px) {
   .Top-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -47,13 +50,13 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 15vw;
     margin-bottom: 10vw;
   }
   .Top-section .Intro {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,13 +64,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0;
+    width: 90%;
+    margin: 0 auto;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .Top-section .Intro .Greeting {
     font-size: 16vw;
@@ -82,45 +86,54 @@
     line-height: 0.5em;
     font-size: 8vw;
     color: #EABE7A;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
     text-align: right;
   }
-  .Top-section .Top-avatar {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+  .Top-section .imageContainer {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Top-section .imageContainer .Top-avatar {
     margin: 0;
     height: 73vw;
     pointer-events: none;
   }
   .Top-section #books {
     position: absolute;
-    width: 21vw;
-    height: 23vw;
-    right: 10%;
-    top: 56%;
+    width: 22vw;
+    height: 24vw;
+    left: 67%;
+    top: 60%;
   }
   .Top-section #iceCream {
     position: absolute;
     width: 5vw;
     height: 10vw;
-    top: 39%;
-    left: -25%;
+    top: 80%;
+    left: 10%;
   }
   .Top-section #camera {
     position: absolute;
     width: 9vw;
     height: 7vw;
-    top: 8%;
-    right: 18%;
+    top: 20%;
+    left: 80%;
   }
   .Top-section #headphones {
     position: absolute;
     width: 8vw;
     height: 8vw;
-    top: -5%;
-    left: -35%;
+    top: 0%;
+    left: 17%;
   }
 }
 

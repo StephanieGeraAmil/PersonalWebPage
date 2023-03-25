@@ -32,19 +32,20 @@
 
 @media (max-width: 400px) {
   .Top-section {
+    display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
     margin-top: 15vw;
     margin-bottom: 10vw;
     .Intro {
-      order: 1;
       display: flex;
       flex-direction: column;
-
-      margin: 0;
+      width: 90%;
+      margin: 0 auto;
       justify-content: flex-end;
-      align-items: flex-start;
+      align-items: center;
 
       .Greeting {
         font-size: 16vw;
@@ -57,17 +58,23 @@
         line-height: 0.5em;
         font-size: 8vw;
         color: $primary-color;
-        align-self: flex-start;
+
         text-align: right;
       }
     }
-    .Top-avatar {
-      order: 2;
-      margin: 0;
-      height: 73vw;
-      pointer-events: none;
-    }
 
+    .imageContainer {
+      margin: 0 auto;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .Top-avatar {
+        margin: 0;
+        height: 73vw;
+        pointer-events: none;
+      }
+    }
     // #laptop {
     //   position: absolute;
     //   width: 10;
@@ -78,20 +85,20 @@
 
     #books {
       position: absolute;
-      width: 21vw;
+      width: 22vw;
 
-      height: 23vw;
-      right: 10%;
+      height: 24vw;
+      left: 67%;
 
-      top: 56%;
+      top: 60%;
     }
 
     #iceCream {
       position: absolute;
       width: 5vw;
       height: 10vw;
-      top: 39%;
-      left: -25%;
+      top: 80%;
+      left: 10%;
     }
 
     // #paint {
@@ -130,15 +137,15 @@
       position: absolute;
       width: 9vw;
       height: 7vw;
-      top: 8%;
-      right: 18%;
+      top: 20%;
+        left: 80%;
     }
     #headphones {
       position: absolute;
       width: 8vw;
       height: 8vw;
-      top: -5%;
-      left: -35%;
+      top: 0%;
+      left: 17%;
     }
   }
 }
