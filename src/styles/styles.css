@@ -541,9 +541,14 @@
 }
 
 .bottom .attribution {
+  height: 8vw;
   position: absolute;
   top: 25%;
-  right: -120%;
+  right: -130%;
+}
+
+.bottom .attribution a p {
+  font-size: 2vw;
 }
 
 @media (max-width: 500px) {
@@ -567,9 +572,18 @@
     height: 10vw;
   }
   .bottom .attribution {
+    height: 12vw;
     position: absolute;
     top: 40%;
     right: 0%;
+  }
+}
+
+@media (min-width: 800px) {
+  .attribution {
+    top: 25%;
+    right: -200%;
+    height: 12vw;
   }
 }
 
@@ -632,7 +646,6 @@ body,
 .App a {
   color: #66534E;
   text-decoration: none;
-  font-size: small;
   /* no underline */
 }
 /*# sourceMappingURL=styles.css.map */

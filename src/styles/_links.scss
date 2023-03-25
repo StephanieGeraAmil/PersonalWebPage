@@ -14,9 +14,16 @@
     }
   }
   .attribution {
+    height: 8vw;
     position: absolute;
     top: 25%;
-    right: -120%;
+    right: -130%;
+  a {
+      p {
+        font-size: 2vw;
+      }
+  
+    }
   }
 }
 @media (max-width: 500px) {
@@ -37,9 +44,21 @@
       }
     }
     .attribution {
+      height: 12vw;
       position: absolute;
-      top:40%;
+      top: 40%;
       right: 0%;
+     
     }
   }
 }
+@media (min-width: 800px) {
+  .attribution {
+    top: 25%;
+    right: -200%;
+    height: 12vw;
+  
+
+  }
+}
+
