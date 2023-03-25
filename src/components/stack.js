@@ -31,9 +31,11 @@ export const Stack = () => {
     return (
         <div className='Stack-section'>
             <div className="tech-container" >
-            <Marquee gradient={false} speed={75}>
+            <Marquee pauseOnHover={true }gradient={false} speed={65}>
                 {initialArrayOfTech.map((tech)=>(<img src={tech.src} className="tech" title={tech.alt} onClick={handleClickOnTech} key={tech.alt} />   ))}
             </Marquee> 
+     
+
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" className='stackTitle'>
                 <h2 >my Stack</h2>
