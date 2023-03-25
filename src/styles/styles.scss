@@ -22,9 +22,8 @@
   background-color: $background-color-LightTheme;
   color: $color-LightTheme;
 }
-@mixin dark-theme {
-  background-color: $background-color-darkTheme;
-  color: $color-darkTheme;
+* {
+  box-sizing: border-box;
 }
 
 .App {

@@ -1,6 +1,5 @@
 .Top-section {
   width: 55%;
-  // background-color: $secondary-color;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,26 +7,85 @@
   margin: auto;
   margin-top: $standardMargin;
   margin-bottom: $standardMargin;
-  //background-image: url(../assets/bubbles.png);
-  //background-repeat: no-repeat;
-  //background-size: cover;
+
 
   justify-content: space-between;
-}
-.Greeting {
-  font-size: 9vw;
-  font-weight: 500;
-  line-height: 0em;
-}
-.Name {
-  line-height: 0.5em;
-  font-size: 5vw;
-  color: $secondary-color;
-}
-.Top-avatar {
-  height: 35vw;
-  pointer-events: none;
-  margin: auto;
+
+  .Greeting {
+    font-size: 9vw;
+    font-weight: 500;
+    line-height: 0em;
+  }
+  .Name {
+    line-height: 0.5em;
+    font-size: 5vw;
+    color: $secondary-color;
+  }
+
+  .imageContainer {
+    position: relative;
+    width: 40%;
+    display: flex;
+
+    .Top-avatar {
+      height: 35vw;
+      pointer-events: none;
+      margin: auto;
+    }
+    .rotateimg15 {
+      -webkit-transform: rotate(15deg);
+      -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+      -o-transform: rotate(15deg);
+      transform: rotate(15deg);
+    }
+
+    .rotateimg345 {
+      -webkit-transform: rotate(345deg);
+      -moz-transform: rotate(345deg);
+      -ms-transform: rotate(345deg);
+      -o-transform: rotate(345deg);
+      transform: rotate(345deg);
+    }
+
+    .rotateimg325 {
+      -webkit-transform: rotate(325deg);
+      -moz-transform: rotate(325deg);
+      -ms-transform: rotate(325deg);
+      -o-transform: rotate(325deg);
+      transform: rotate(325deg);
+    }
+
+    #books {
+      position: absolute;
+      width: 14vw;
+      height: 16vw;
+      top: 24vw;
+      left: 23vw;
+    }
+    #iceCream {
+      position: absolute;
+      width: 4vw;
+      height: 7vw;
+      top: 30vw;
+      right: 63vw;
+    }
+
+    #camera {
+      position: absolute;
+      width: 7vw;
+      height: 5vw;
+      top: 3vw;
+      left: 27vw;
+    }
+    #headphones {
+      position: absolute;
+      width: 6vw;
+      height: 6vw;
+      top: 2vw;
+      right: 67vw;
+    }
+  }
 }
 
 @media (max-width: 500px) {
@@ -39,6 +97,7 @@
     align-items: center;
     margin-top: 15vw;
     margin-bottom: 10vw;
+
     .Intro {
       display: flex;
       flex-direction: column;
@@ -53,12 +112,12 @@
         line-height: 0em;
         margin-block-end: 0px;
       }
+
       .Name {
         margin-block-start: 0px;
         line-height: 0.5em;
         font-size: 8vw;
         color: $primary-color;
-
         text-align: right;
       }
     }
@@ -69,187 +128,44 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+
       .Top-avatar {
         margin: 0;
         height: 73vw;
         pointer-events: none;
       }
-    }
-    // #laptop {
-    //   position: absolute;
-    //   width: 10;
-    //   height: 5;
-    //   right: 24;
-    //   top: 15;
-    // }
 
-    #books {
-      position: absolute;
-      width: 27vw;
+      #books {
+        position: absolute;
+        width: 27vw;
+        height: 29vw;
+        left: 67%;
+        top: 60%;
+      }
 
-      height: 29vw;
-        
-      left: 67%;
+      #iceCream {
+        position: absolute;
+        width: 5vw;
+        height: 13vw;
+        top: 40%;
+        left: 10%;
+      }
 
-      top: 60%;
-    }
-
-    #iceCream {
-      position: absolute;
-      width: 5vw;
-      height: 13vw;
-      top: 40%;
-      left: 10%;
-    }
-
-    // #paint {
-    //   position: absolute;
-    //   width: 6;
-    //   height: 6;
-    //   top: 3;
-    //   right: 32;
-    // }
-
-    // #guitar {
-    //   position: absolute;
-    //   width: 12;
-    //   height: 18;
-    //   top: 20;
-    //   right: 63;
-    // }
-
-    // #airplane {
-    //   position: absolute;
-    //   width: 9;
-    //   height: 6;
-    //   top: 0;
-    //   left: -60px;
-    // }
-
-    // #cofee {
-    //   position: absolute;
-    //   width: 3;
-    //   height: 4;
-    //   top: 10;
-    //   left: 28;
-    // }
-
-    #camera {
-      position: absolute;
-      width: 12vw;
-      height: 9vw;
-      top: 10%;
+      #camera {
+        position: absolute;
+        width: 12vw;
+        height: 9vw;
+        top: 10%;
         left: 80%;
-    }
-    #headphones {
-      position: absolute;
-      width: 12vw;
-      height: 12vw;
-      top: -40%;
-      left: 9%;
+      }
+
+      #headphones {
+        position: absolute;
+        width: 12vw;
+        height: 12vw;
+        top: -40%;
+        left: 9%;
+      }
     }
   }
 }
-.rotateimg15 {
-  -webkit-transform: rotate(15deg);
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  transform: rotate(15deg);
-}
-.rotateimg345 {
-  -webkit-transform: rotate(345deg);
-  -moz-transform: rotate(345deg);
-  -ms-transform: rotate(345deg);
-  -o-transform: rotate(345deg);
-  transform: rotate(345deg);
-}
-.rotateimg325 {
-  -webkit-transform: rotate(325deg);
-  -moz-transform: rotate(325deg);
-  -ms-transform: rotate(325deg);
-  -o-transform: rotate(325deg);
-  transform: rotate(325deg);
-}
-
-.imageContainer {
-  position: relative;
-  width: 40%;
-  display: flex;
-}
-// .floating {
-//   position: absolute;
-// }
-
-// #laptop {
-//   position: absolute;
-//   width: 14vw;
-//   height: 7vw;
-//   right: 22vw;
-//   top: 10vw;
-// }
-#books {
-  position: absolute;
-  width: 14vw;
-
-  height: 16vw;
-  top: 24vw;
-  left: 23vw;
-}
-#iceCream {
-  position: absolute;
-  width: 4vw;
-  height: 7vw;
-  top: 30vw;
-  right: 63vw;
-}
-// #paint {
-//   position: absolute;
-//   width: 5vw;
-//   height: 5vw;
-//   top: 33vw;
-//     right: 67vw;
-// }
-// #guitar {
-//   position: absolute;
-//   width: 15vw;
-//   height: 21vw;
-//   top:-2vw;
-//   right: 63vw;
-// }
-// #airplane {
-//   position: absolute;
-//   width: 9vw;
-//   height: 6vw;
-//   top: -1vw;
-//   right: 68vw;
-// }
-// #cofee {
-//   position: absolute;
-//   width: 3vw;
-//   height: 4vw;
-//   top: 10vw;
-//   left: 28vw;
-// }
-#camera {
-  position: absolute;
-  width: 7vw;
-  height: 5vw;
-
-  top: 3vw;
-  left: 27vw;
-}
-#headphones {
-  position: absolute;
-  width: 6vw;
-  height: 6vw;
-  top: 2vw;
-  right: 67vw;
-}
-// #earth {
-//   position: absolute;
-//   width: 5vw;
-//   height: 5vw;
-//   top: -2vw;
-//   left: 27vw;
-// }

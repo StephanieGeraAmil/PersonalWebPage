@@ -19,22 +19,77 @@
           justify-content: space-between;
 }
 
-.Greeting {
+.Top-section .Greeting {
   font-size: 9vw;
   font-weight: 500;
   line-height: 0em;
 }
 
-.Name {
+.Top-section .Name {
   line-height: 0.5em;
   font-size: 5vw;
   color: #D7A4B4;
 }
 
-.Top-avatar {
+.Top-section .imageContainer {
+  position: relative;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Top-section .imageContainer .Top-avatar {
   height: 35vw;
   pointer-events: none;
   margin: auto;
+}
+
+.Top-section .imageContainer .rotateimg15 {
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+.Top-section .imageContainer .rotateimg345 {
+  -webkit-transform: rotate(345deg);
+  transform: rotate(345deg);
+}
+
+.Top-section .imageContainer .rotateimg325 {
+  -webkit-transform: rotate(325deg);
+  transform: rotate(325deg);
+}
+
+.Top-section .imageContainer #books {
+  position: absolute;
+  width: 14vw;
+  height: 16vw;
+  top: 24vw;
+  left: 23vw;
+}
+
+.Top-section .imageContainer #iceCream {
+  position: absolute;
+  width: 4vw;
+  height: 7vw;
+  top: 30vw;
+  right: 63vw;
+}
+
+.Top-section .imageContainer #camera {
+  position: absolute;
+  width: 7vw;
+  height: 5vw;
+  top: 3vw;
+  left: 27vw;
+}
+
+.Top-section .imageContainer #headphones {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 2vw;
+  right: 67vw;
 }
 
 @media (max-width: 500px) {
@@ -107,89 +162,34 @@
     height: 73vw;
     pointer-events: none;
   }
-  .Top-section #books {
+  .Top-section .imageContainer #books {
     position: absolute;
     width: 27vw;
     height: 29vw;
     left: 67%;
     top: 60%;
   }
-  .Top-section #iceCream {
+  .Top-section .imageContainer #iceCream {
     position: absolute;
     width: 5vw;
     height: 13vw;
     top: 40%;
     left: 10%;
   }
-  .Top-section #camera {
+  .Top-section .imageContainer #camera {
     position: absolute;
     width: 12vw;
     height: 9vw;
     top: 10%;
     left: 80%;
   }
-  .Top-section #headphones {
+  .Top-section .imageContainer #headphones {
     position: absolute;
     width: 12vw;
     height: 12vw;
     top: -40%;
     left: 9%;
   }
-}
-
-.rotateimg15 {
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-}
-
-.rotateimg345 {
-  -webkit-transform: rotate(345deg);
-  transform: rotate(345deg);
-}
-
-.rotateimg325 {
-  -webkit-transform: rotate(325deg);
-  transform: rotate(325deg);
-}
-
-.imageContainer {
-  position: relative;
-  width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#books {
-  position: absolute;
-  width: 14vw;
-  height: 16vw;
-  top: 24vw;
-  left: 23vw;
-}
-
-#iceCream {
-  position: absolute;
-  width: 4vw;
-  height: 7vw;
-  top: 30vw;
-  right: 63vw;
-}
-
-#camera {
-  position: absolute;
-  width: 7vw;
-  height: 5vw;
-  top: 3vw;
-  left: 27vw;
-}
-
-#headphones {
-  position: absolute;
-  width: 6vw;
-  height: 6vw;
-  top: 2vw;
-  right: 67vw;
 }
 
 .Stack-section {
@@ -563,6 +563,11 @@
 @font-face {
   font-family: "thinking_of_bettyregular";
   src: local("thinking_of_bettyregular"), url(../assets/webfontkit-20210913-070136/thinking_of_betty-webfont.woff) format("woff");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .App {
