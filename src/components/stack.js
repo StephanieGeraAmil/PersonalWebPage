@@ -3,19 +3,20 @@ import Marquee from "react-fast-marquee";
 
 export const Stack = () => {
   const initialArrayOfTech = [
-    { alt: "react", src: "/icons-lightTheme/REACT.png" },
-    { alt: "javascipt", src: "/icons-lightTheme/JS.png" },
-    { alt: "node", src: "/icons-lightTheme/NODE.png" },
-    { alt: "html5", src: "/icons-lightTheme/HTML5.png" },
-    { alt: "mongo", src: "/icons-lightTheme/MONGO.png" },
-    { alt: "css3", src: "/icons-lightTheme/CSS3.png" },
-    { alt: "redux", src: "/icons-lightTheme/REDUX.png" },
-    { alt: "postgres", src: "/icons-lightTheme/POSTGRE.png" },
-    { alt: "sass", src: "/icons-lightTheme/SASS.png" },
-    { alt: "figma", src: "/icons-lightTheme/FIGMA.png" },
-    { alt: "typescript", src: "/icons-lightTheme/TS.png" },
-    { alt: "lambda", src: "/icons-lightTheme/LAMBDA.png" },
-    { alt: "material-ui", src: "/icons-lightTheme/MUI.png" },
+    { alt: "react", src: "/skills/REACT.png" },
+    { alt: "javascipt", src: "/skills/JS.png" },
+    { alt: "node", src: "/skills/NODE.png" },
+    { alt: "html5", src: "/skills/HTML5.png" },
+    { alt: "mongo", src: "/skills/MONGO.png" },
+    { alt: "css3", src: "/skills/CSS3.png" },
+    { alt: "redux", src: "/skills/REDUX.png" },
+    { alt: "postgres", src: "/skills/POSTGRE.png" },
+    { alt: "sass", src: "/skills/SASS.png" },
+    { alt: "figma", src: "/skills/FIGMA.png" },
+    { alt: "typescript", src: "/skills/TS.png" },
+    {alt: "styled_components", src: "/skills/STYLED.png" },
+    { alt: "lambda", src: "/skills/LAMBDA.png" },
+    { alt: "material-ui", src: "/skills/MUI.png" },
   ];
 
   return (
