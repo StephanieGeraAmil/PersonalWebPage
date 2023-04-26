@@ -5,13 +5,13 @@ let arrayOfProjects = [
       id: 1,
       name: "Jars",
       photo: "/project-imgs/katt-yukawa-K0E6E0a0R3A-unsplash.jpg",
-      link: "",
+      link: "lucid-agnesi-0d6296.netlify.app",
     },
     {
       id: 2,
       name: "Truth",
       photo: "/project-imgs/bible-unsplash.jpg",
-      link: "",
+      link: "elastic-kowalevski-f1c1a2.netlify.app",
     },
     {
       id: 3,
