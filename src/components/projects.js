@@ -21,8 +21,6 @@ let arrayOfProjects = [
     },
   ];
 export const Projects = () => {
-  
-  //https://elastic-kowalevski-f1c1a2.netlify.app/
   const [shouldMove, setShouldMove] = useState(false);
 
   let timer;
