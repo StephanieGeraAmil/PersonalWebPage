@@ -11,10 +11,11 @@ export const Stack = () => {
     { alt: "css3", src: "/skills/CSS3.png" },
     { alt: "redux", src: "/skills/REDUX.png" },
     { alt: "postgres", src: "/skills/POSTGRE.png" },
+    { alt: "socket.io", src: "/skills/SOCKETIO.png" },
     { alt: "sass", src: "/skills/SASS.png" },
     { alt: "figma", src: "/skills/FIGMA.png" },
     { alt: "typescript", src: "/skills/TS.png" },
-    {alt: "styled_components", src: "/skills/STYLED.png" },
+    { alt: "styled_components", src: "/skills/STYLED.png" },
     { alt: "lambda", src: "/skills/LAMBDA.png" },
     { alt: "material-ui", src: "/skills/MUI.png" },
   ];
