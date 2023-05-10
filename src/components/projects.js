@@ -4,7 +4,7 @@ let arrayOfProjects = [
     {
       id: 1,
       name: "Jars",
-      photo: "/project-imgs/katt-yukawa-K0E6E0a0R3A-unsplash.jpg",
+      photo: "/project-imgs/budget.png",
       link: "https://lucid-agnesi-0d6296.netlify.app",
     },
     {
@@ -16,7 +16,7 @@ let arrayOfProjects = [
     {
       id: 3,
       name: "Not Alone",
-      photo: "/project-imgs/hannah-busing-Zyx1bK9mqmA-unsplash.jpg",
+      photo: "/project-imgs/friends.png",
       link: "https://fight-loneliness.com/",
     },
   ];
