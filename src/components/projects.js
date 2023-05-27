@@ -4,7 +4,7 @@ let arrayOfProjects = [
   {
     id: 1,
     name: "Jars",
-    photo: "/project-imgs/budget.png",
+    photo: "/project-imgs/budget.jpeg",
     link: "https://lucid-agnesi-0d6296.netlify.app",
   },
   {
@@ -16,7 +16,7 @@ let arrayOfProjects = [
   {
     id: 3,
     name: "Not Alone",
-    photo: "/project-imgs/friends.png",
+    photo: "/project-imgs/friends.jpeg",
     link: "https://fight-loneliness.com/",
   },
 ];
