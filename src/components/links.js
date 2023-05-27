@@ -5,10 +5,10 @@ export const Links = () => {
     <div className="bottom">
       <div className="links-container">
         <a href="https://github.com/StephanieGeraAmil">
-          <img src="/links/Github.png" className="link" alt="github" />
+          <img src="/links/Github.svg" className="link" alt="github" />
         </a>
         <a href="https://www.linkedin.com/in/stephanie-gera-60b6b5a0/">
-          <img src="links/Linkedin.png" className="link" alt="linkedin" />
+          <img src="links/Linkedin.svg" className="link" alt="linkedin" />
         </a>
         
       </div>

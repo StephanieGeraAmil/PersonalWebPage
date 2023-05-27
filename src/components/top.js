@@ -14,25 +14,25 @@ export const Top = () => {
         <img src="/girlAndDog.png" className="Top-avatar" alt="avatar" />
         <img
           id="books"
-          src="/casual-life-3d-cat-lying-on-books.png"
+          src="cat_books.png"
           alt="books"
         />
         <img
           id="iceCream"
           className="rotateimg325"
-          src="/casual-life-3d-chocolate-ice-cream-cone-mokup.png"
+          src="/icecream.png"
           alt="iceCream"
         />
         <img
           id="camera"
               className="rotateimg345"
-          src="/casual-life-3d-front-view-of-pink-camera.png"
+          src="/camera.png"
           alt="camera"
         />
         <img
           id="headphones"
            className="rotateimg15"
-          src="/casual-life-3d-close-up-of-pink-headphones.png"
+          src="/headphones.png"
           alt="headphones"
         />
       </div>
