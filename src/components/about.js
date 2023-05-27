@@ -9,7 +9,7 @@ export const About = () => {
                 </div> 
                 <div className='content-container'>
                     <>
-                    <img src={"/photo.png"} className="Photo" alt="photo" />
+                    <img src={"/photo.png"} className="Photo" alt="me"  loading="lazy" />
                      </> 
                     
                     <div data-aos="fade-left" className='info'>

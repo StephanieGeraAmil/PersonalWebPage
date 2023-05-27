@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React ,{useRef}from "react";
 import Marquee from "react-fast-marquee";
 
 export const Stack = () => {
-  const initialArrayOfTech = [
+  const arrayOfTech = useRef([
     { alt: "react", src: "/skills/REACT.png" },
     { alt: "javascipt", src: "/skills/JS.png" },
     { alt: "node", src: "/skills/NODE.png" },
@@ -18,17 +18,18 @@ export const Stack = () => {
     { alt: "styled_components", src: "/skills/STYLED.png" },
     { alt: "lambda", src: "/skills/LAMBDA.png" },
     { alt: "material-ui", src: "/skills/MUI.png" },
-  ];
+  ]);
 
   return (
     <div className="Stack-section">
       <div className="tech-container">
         <Marquee pauseOnHover={true} gradient={false} speed={65}>
-          {initialArrayOfTech.map((tech) => (
+          {arrayOfTech.current.map((tech) => (
             <img
               src={tech.src}
               className="tech"
               title={tech.alt}
+              alt={tech.alt}
               key={tech.alt}
             />
           ))}

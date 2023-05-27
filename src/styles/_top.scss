@@ -57,14 +57,16 @@
     #books {
       position: absolute;
       width: 14vw;
-      height: 16vw;
+      aspect-ratio: 1.19;
+      // height: 16vw;
       top: 24vw;
       left: 23vw;
     }
     #iceCream {
       position: absolute;
       width: 4vw;
-      height: 7vw;
+            aspect-ratio: 0.4;
+      // height: 7vw;
       top: 30vw;
       right: 63vw;
     }
@@ -72,7 +74,9 @@
     #camera {
       position: absolute;
       width: 7vw;
-      height: 5vw;
+      // height: 5vw;
+        aspect-ratio: 1.46;
+     
       top: 3vw;
       left: 27vw;
     }

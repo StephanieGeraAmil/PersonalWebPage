@@ -63,7 +63,7 @@
 .Top-section .imageContainer #books {
   position: absolute;
   width: 14vw;
-  height: 16vw;
+  aspect-ratio: 1.19;
   top: 24vw;
   left: 23vw;
 }
@@ -71,7 +71,7 @@
 .Top-section .imageContainer #iceCream {
   position: absolute;
   width: 4vw;
-  height: 7vw;
+  aspect-ratio: 0.4;
   top: 30vw;
   right: 63vw;
 }
@@ -79,7 +79,7 @@
 .Top-section .imageContainer #camera {
   position: absolute;
   width: 7vw;
-  height: 5vw;
+  aspect-ratio: 1.46;
   top: 3vw;
   left: 27vw;
 }
@@ -581,12 +581,14 @@
 
 @font-face {
   font-family: "luckiest_guyregular";
-  src: local("luckiest_guyregular"), url(../assets/webfontkit-20210913-070136/luckiestguy-regular-webfont.woff) format("woff");
+  src: local("luckiest_guyregular"), url(../fonts/luckiestguy-regular-webfont.woff) format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "thinking_of_bettyregular";
-  src: local("thinking_of_bettyregular"), url(../assets/webfontkit-20210913-070136/thinking_of_betty-webfont.woff) format("woff");
+  src: local("thinking_of_bettyregular"), url(../fonts/thinking_of_betty-webfont.woff) format("woff");
+  font-display: swap;
 }
 
 * {

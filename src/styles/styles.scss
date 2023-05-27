@@ -8,14 +8,16 @@
 @font-face {
   font-family: "luckiest_guyregular";
   src: local("luckiest_guyregular"),
-    url(../assets/webfontkit-20210913-070136/luckiestguy-regular-webfont.woff)
+    url(../fonts/luckiestguy-regular-webfont.woff)
       format("woff");
+      font-display: swap;
 }
 @font-face {
   font-family: "thinking_of_bettyregular";
   src: local("thinking_of_bettyregular"),
-    url(../assets/webfontkit-20210913-070136/thinking_of_betty-webfont.woff)
+    url(../fonts/thinking_of_betty-webfont.woff)
       format("woff");
+      font-display: swap;
 }
 
 @mixin light-theme {
