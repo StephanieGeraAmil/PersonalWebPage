@@ -1,23 +1,29 @@
-import React, { useState, useEffect, useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { CurrentProject } from "./currentProject";
 let arrayOfProjects = [
   {
     id: 1,
     name: "Jars",
-    photo: "/project-imgs/budget.jpeg",
+    photo: "/project-imgs/budget-500.jpg",
     link: "https://lucid-agnesi-0d6296.netlify.app",
+    srcset:
+      "/project-imgs/budget-500.jpg, /project-imgs/budget-1000.jpg 700w, /project-imgs/budget-1500.jpg 1500w ",
   },
   {
     id: 2,
     name: "Truth",
-    photo: "/project-imgs/bible-unsplash.jpg",
+    photo: "/project-imgs/bible-500.jpg",
     link: "https://elastic-kowalevski-f1c1a2.netlify.app",
+    srcset:
+      "/project-imgs/bible-500.jpg, /project-imgs/bible-1000.jpg 700w, /project-imgs/bible-1500.jpg 1500w ",
   },
   {
     id: 3,
     name: "Not Alone",
-    photo: "/project-imgs/friends.jpeg",
+    photo: "/project-imgs/friends-500.jpg",
     link: "https://fight-loneliness.com/",
+    srcset:
+      "/project-imgs/friends-500.jpg , /project-imgs/friends-1000.jpg 700w, /project-imgs/friends-1500.jpg 1500w",
   },
 ];
 export const Projects = () => {
@@ -44,7 +50,7 @@ export const Projects = () => {
     setCurrentIndex(next);
   };
   const slideLeft = () => {
-     setCurrentIndex(prev);
+    setCurrentIndex(prev);
   };
 
   useEffect(() => {
@@ -71,7 +77,7 @@ export const Projects = () => {
             className="side"
             title={arrayOfProjects[prev].name}
             alt={arrayOfProjects[prev].name}
-      
+            srcSet={arrayOfProjects[prev].srcset}
           />
         </button>
 
@@ -88,7 +94,7 @@ export const Projects = () => {
             className="side"
             alt={arrayOfProjects[next].name}
             title={arrayOfProjects[next].name}
-     
+            srcSet={arrayOfProjects[next].srcset}
           />
         </button>
       </div>
