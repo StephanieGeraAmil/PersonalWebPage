@@ -21,7 +21,7 @@ let arrayOfProjects = [
     id: 3,
     name: "Not Alone",
     photo: "/project-imgs/friends-500.jpg",
-    link: "https://fight-loneliness.com/",
+    link: "https://boring-allen-85a658.netlify.app/",
     srcset:
       "/project-imgs/friends-500.jpg , /project-imgs/friends-1000.jpg 700w, /project-imgs/friends-1500.jpg 1500w",
   },
