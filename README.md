@@ -1,1 +1,1 @@
-My personal Portfolio using React, React-Router and Sass
+My personal Portfolio using React and Sass
