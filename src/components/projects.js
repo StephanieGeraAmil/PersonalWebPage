@@ -5,23 +5,23 @@ let arrayOfProjects = [
     id: 1,
     name: "Jars",
     photo: "/project-imgs/budget-500.jpg",
-    link: "https://lucid-agnesi-0d6296.netlify.app",
+    link: "https://jar-budget.app",
     srcset:
       "/project-imgs/budget-500.jpg, /project-imgs/budget-1000.jpg 700w, /project-imgs/budget-1500.jpg 1500w ",
   },
   {
     id: 2,
-    name: "Truth",
+    name: "The Truth",
     photo: "/project-imgs/bible-500.jpg",
-    link: "https://elastic-kowalevski-f1c1a2.netlify.app",
+    link: "https://the-truth-site.netlify.app",
     srcset:
       "/project-imgs/bible-500.jpg, /project-imgs/bible-1000.jpg 700w, /project-imgs/bible-1500.jpg 1500w ",
   },
   {
     id: 3,
-    name: "Not Alone",
+    name: "Faith Filled Friends",
     photo: "/project-imgs/friends-500.jpg",
-    link: "https://boring-allen-85a658.netlify.app",
+    link: "https://faithfilledfriends.netlify.app",
     srcset:
       "/project-imgs/friends-500.jpg , /project-imgs/friends-1000.jpg 700w, /project-imgs/friends-1500.jpg 1500w",
   },
