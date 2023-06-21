@@ -5,7 +5,7 @@ let arrayOfProjects = [
     id: 1,
     name: "Jars",
     photo: "/project-imgs/budget-500.jpg",
-    link: "https://jar-budget.app",
+    link: "https://jar-budget.netlify.app",
     srcset:
       "/project-imgs/budget-500.jpg, /project-imgs/budget-1000.jpg 700w, /project-imgs/budget-1500.jpg 1500w ",
   },
