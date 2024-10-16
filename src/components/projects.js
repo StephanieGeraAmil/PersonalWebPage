@@ -5,7 +5,7 @@ let arrayOfProjects = [
     id: 1,
     name: "Jars",
     photo: "/project-imgs/budget-500.jpg",
-    link: "https://jar-budget.netlify.app",
+    link: "https://budget-buddy-jar-app.netlify.app",
     srcset:
       "/project-imgs/budget-500.jpg, /project-imgs/budget-1000.jpg 700w, /project-imgs/budget-1500.jpg 1500w ",
   },
@@ -21,7 +21,7 @@ let arrayOfProjects = [
     id: 3,
     name: "Faith Filled Friends",
     photo: "/project-imgs/friends-500.jpg",
-    link: "https://faithfilledfriends.netlify.app",
+    link: "https://fightingloneliness.netlify.app",
     srcset:
       "/project-imgs/friends-500.jpg , /project-imgs/friends-1000.jpg 700w, /project-imgs/friends-1500.jpg 1500w",
   },
